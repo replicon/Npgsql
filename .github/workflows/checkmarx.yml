@@ -11,7 +11,7 @@ name: Checkmarx SAST Scan
 jobs:
   call-reusable-checkmarx:
     name: Call Reusable Checkmarx Workflow
-    uses: Replicon/time-intelligence-web/.github/workflows/reusable-checkmarx.yml@main
+    uses: Replicon/shared-workflow/.github/workflows/reusable-checkmarx.yml@v1
     with:
       timeout_minutes: 90
       scheduled_timeout_minutes: 360
